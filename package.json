@@ -23,6 +23,7 @@
   },
   "scripts": {
     "ng": "ng",
+    "ionic": "ionic serve",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
