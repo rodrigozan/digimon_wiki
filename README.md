@@ -89,6 +89,12 @@ Install dependencies:
 npm install
 ```
 
+Or
+
+```bash
+yarn install
+```
+
 Run the app:
 
 ```bash
