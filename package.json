@@ -15,7 +15,18 @@
   "bugs": {
     "url": "https://github.com/rodrigozan/digimon_wiki/issues"
   },
-  "keywords": ["digimon","anime","wiki","database","ionic","angular","firebase","mobile-app","digidestined","digivolution"],
+  "keywords": [
+    "digimon",
+    "anime",
+    "wiki",
+    "database",
+    "ionic",
+    "angular",
+    "firebase",
+    "mobile-app",
+    "digidestined",
+    "digivolution"
+  ],
   "license": "MIT",
   "engines": {
     "node": ">=14.0.0",
@@ -36,10 +47,12 @@
     "@angular/common": "^19.0.0",
     "@angular/compiler": "^19.0.0",
     "@angular/core": "^19.0.0",
+    "@angular/fire": "^19.0.0",
     "@angular/forms": "^19.0.0",
     "@angular/platform-browser": "^19.0.0",
     "@angular/platform-browser-dynamic": "^19.0.0",
     "@angular/router": "^19.0.0",
+    "@capacitor/android": "7.1.0",
     "@capacitor/app": "7.0.0",
     "@capacitor/core": "7.1.0",
     "@capacitor/haptics": "7.0.0",
@@ -47,6 +60,7 @@
     "@capacitor/status-bar": "7.0.0",
     "@ionic/angular": "^8.0.0",
     "bootstrap": "^5.3.3",
+    "firebase": "^11.5.0",
     "ionicons": "^7.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
