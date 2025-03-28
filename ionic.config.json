@@ -1,0 +1,7 @@
+{
+  "name": "digimon_wiki",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
