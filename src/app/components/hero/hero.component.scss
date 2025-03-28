@@ -1,0 +1,18 @@
+.hero-section {
+    //background: url('assets/img/digimon_wiki_logo.png') no-repeat center center/cover;
+    color: #fff;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
+  
+  .hero-section ion-button {
+    transition: transform 0.3s ease;
+  }
+  
+  .hero-section ion-button:hover {
+    transform: scale(1.1);
+  }

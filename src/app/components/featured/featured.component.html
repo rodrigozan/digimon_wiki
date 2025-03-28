@@ -1,0 +1,17 @@
+<div class="container mt-4">
+  <h2 class="text-center mb-4">Digimons em Destaque</h2>
+  <div class="row g-4">
+    <div class="col-12 col-md-6 col-lg-4" *ngFor="let digimon of featuredDigimons">
+      <app-card
+        [image]="digimon.imageUrl"
+        [title]="digimon.name"
+        [description]="digimon.description"
+        [link]="'/digimon/' + digimon.id"
+        buttonColor="primary"
+        buttonFill="outline"
+        buttonShape="round"
+        buttonText="Ver Mais"
+      ></app-card>
+    </div>
+  </div>
+</div>

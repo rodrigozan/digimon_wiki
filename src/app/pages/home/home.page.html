@@ -1,13 +1,17 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>home</ion-title>
-  </ion-toolbar>
+<ion-header>
+  <app-header [title]="title"></app-header>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">home</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <!-- Hero Section -->
+  <app-hero [title]="title"></app-hero>
+
+  <ng-container *ngIf="showSections$ | async">
+    <app-featured [digimons]="featuredDigimons"></app-featured>
+
+    <!-- Series Section -->
+    <app-series [seriesList]="allSeries"></app-series>
+  </ng-container>
+  <!-- Footer -->
+  <app-footer></app-footer>
 </ion-content>

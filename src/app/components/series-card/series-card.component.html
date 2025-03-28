@@ -1,3 +1,17 @@
-<p>
-  series-card works!
-</p>
+<div class="container mt-4">
+  <h2 class="text-center mb-4">Digimon Series</h2>
+  <div class="row g-4">
+    <div class="col-12 col-md-6 col-lg-4" *ngFor="let serie of allSeries">
+      <app-card
+        [image]="serie.imageUrl"
+        [title]="serie.title"
+        [description]="serie.description"
+        [link]="'/serie/' + serie.id"
+        buttonColor="primary"
+        buttonFill="outline"
+        buttonShape="round"
+        buttonText="Ver Mais"
+      ></app-card>
+    </div>
+  </div>
+</div>

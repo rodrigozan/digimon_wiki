@@ -1,0 +1,18 @@
+<ion-card class="custom-card">
+  <img [src]="image" [alt]="title" class="card-img-top" />
+  <ion-card-header>
+    <ion-card-title>{{ title }}</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <p>{{ description }}</p>
+    <ion-button
+      [routerLink]="link"
+      [color]="buttonColor"
+      [fill]="buttonFill"
+      [shape]="buttonShape"
+      class="btn"
+    >
+      {{ buttonText }}
+    </ion-button>
+  </ion-card-content>
+</ion-card>
