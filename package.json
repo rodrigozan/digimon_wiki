@@ -1,8 +1,26 @@
 {
-  "name": "digimon_wiki",
-  "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "https://ionicframework.com/",
+  "name": "digimon-wiki",
+  "version": "1.0.0",
+  "description": "A comprehensive Digimon database app featuring information about Digimon series, evolutions, and characters",
+  "author": {
+    "name": "Rodrigo Zandonadi",
+    "email": "rodrigozan.dev@outlook.com",
+    "url": "https://github.com/rodrigozan"
+  },
+  "homepage": "https://github.com/rodrigozan/digimon_wiki#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigozan/digimon_wiki.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rodrigozan/digimon_wiki/issues"
+  },
+  "keywords": ["digimon","anime","wiki","database","ionic","angular","firebase","mobile-app","digidestined","digivolution"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -27,6 +45,7 @@
     "@capacitor/keyboard": "7.0.0",
     "@capacitor/status-bar": "7.0.0",
     "@ionic/angular": "^8.0.0",
+    "bootstrap": "^5.3.3",
     "ionicons": "^7.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
@@ -59,6 +78,5 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.6.3"
-  },
-  "description": "An Ionic project"
+  }
 }
