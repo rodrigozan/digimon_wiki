@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "655133512320",
+    "project_id": "digimon-wiki",
+    "storage_bucket": "digimon-wiki.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655133512320:android:26740cce913b1f1ab6cc65",
+        "android_client_info": {
+          "package_name": "com.animeswiki.dimimon_wiki"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOjayq0eQ_Kbj5GMF7fMvrCOjKaGr5INU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
